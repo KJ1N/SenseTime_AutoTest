@@ -1,0 +1,40 @@
+# 四个学科的原始数据、人工标注和运行结果
+/CH/
+/CN/
+/EN/
+/PH/
+
+# 其他数据与输出
+/data/
+/outputs/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.json
+*.txt
+!requirements.txt
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+
+# 密钥和本地配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Python、编辑器和系统文件
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
